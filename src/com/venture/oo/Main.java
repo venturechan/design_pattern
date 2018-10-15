@@ -27,7 +27,7 @@ public class Main {
         double firstNum = Double.valueOf(divideStr);
 
         MethodFactory methodFactory = new MethodFactory();
-         Operation op = methodFactory.createMethod(calcmethod);
+         Method op = methodFactory.createMethod(calcmethod);
          double result =op.getResult(firstNum,lastNum);
          System.out.println(result);
 
