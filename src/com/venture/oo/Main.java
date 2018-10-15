@@ -29,19 +29,19 @@ public class Main {
         switch (calcmethod){
             case "add":
                 AddMethod addMethod = new AddMethod();
-                System.out.println(addMethod.add(firstNum,lastNum));
+                System.out.println(addMethod.getResult(firstNum,lastNum));
                 break;
             case "sub":
                 SubMethod subMethod = new SubMethod();
-                System.out.println(subMethod.sub(firstNum,lastNum));
+                System.out.println(subMethod.getResult(firstNum,lastNum));
                 break;
             case "div":
                 DivideMethod divideMethod = new DivideMethod();
-                System.out.println(divideMethod.div(firstNum,lastNum));
+                System.out.println(divideMethod.getResult(firstNum,lastNum));
                 break;
             case "mul":
                 MultiMethod multiMethod = new MultiMethod();
-                System.out.println(multiMethod.mul(firstNum,lastNum));
+                System.out.println(multiMethod.getResult(firstNum,lastNum));
         }
          }
 
