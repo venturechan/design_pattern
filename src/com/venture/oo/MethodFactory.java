@@ -6,16 +6,16 @@ package com.venture.oo;
  */
 public class MethodFactory {
 
-    Method createMethod(String method){
+    Operation createMethod(String method){
         switch (method){
             case "add":
-                return new AddMethod();
+                return new AddOperation();
             case "sub":
-                return new SubMethod();
+                return new SubOperation();
             case "mul":
-                return new MultiMethod();
+                return new MultiOperation();
             case "div":
-                return new DivideMethod();
+                return new DivideOperation();
                 default:
                     return null;
         }
